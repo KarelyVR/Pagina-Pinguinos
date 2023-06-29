@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Aqui se configura el idioma de la pagina web-->
+<!--comentario-->
+    <head>
+        <meta charset="UTF-8"> <!--propociona metadatos al html-->
+        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>Página de pingüinos</title>
+        <link rel="stylesheet" href="estilos.css">
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+       <h1>Página de pingüinos</h1>
+
+       <h3>Imágenes de pingüinos</h3>
+       <!--Imagen desde internet-->
+       <img class="img1" src="https://concepto.de/wp-content/uploads/2021/07/pinguino-e1626564100246.jpg" alt="pinguinos">
+
+       <!--Imagen desde computadora-->
+       <img class="img2" src="imagenes/amarillo.jpg" alt="pringuino-amarillo">
+
+       <!--Crear enlaces externos -->
+       <p>
+        Si quieres ver más imagenes de pinguinos, 
+        <a href="https://ciencia.unam.mx/leer/1204/lo-que-debes-saber-de-los-pinguinos-para-ayudar-a-su-conservacion-" target="_blank">da click en este enlace</a>.
+       </p>
+
+       <h3>Lista de pinguinos</h3>
+       <p>3 cosas que <strong>aman</strong> los pinguinos</p>
+
+       <!--Lista ordenada-->
+       <ol>
+        <li>Comer</li>
+        <li>Dormir</li>
+        <li>Nadar</li>
+       </ol>
+
+       <p>3 cosas que <i>odian</i> los pinguinos</p>
+
+       <!--Lista desordenada-->
+       <ul>
+        <li>Caminar</li>
+        <li>Orcas</li>
+        <li>Volar</li>
+       </ul>
+
+        <!-- Formulario con casillas de verificacion-->
+        <form action="">
+            <p>¿Tu pingüino es adulto o bebé?</p>
+            <label>
+                <input id="calmado" type="radio" value="calmado" name="personalidad" checked>
+                Adulto
+            </label>
+            <br>
+            <label id="perezoso">
+                <input id="perezoso" type="radio" value="perezoso" name="personalidad">
+                Bebé
+            </label>
+            <br>
+            <p>¿Que tipo de personalidad tiene un pinguino?</p>
+            <label>
+                <input id="calmado" type="checkbox" value="calmado" name="personalidad" checked>
+                Calmado
+            </label>
+            <br>
+            <label id="perezoso">
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" checked>
+                Perezoso
+            </label>
+            <br>
+            <label id="comelon">
+                <input id="comelon" type="checkbox" value="comelon" name="personalidad" checked>
+                Comelón
+            </label>
+        </form>
+       
+
+    </body>
+
+    <footer>
+        <small>
+            Esta pagina fue creada en el bootcamp de 
+            <a href="https://tecnolochicas.mx/" target ="_blank">Tecnolochicas PRO</a>
+        </small>
+    </footer>
+
+</html>

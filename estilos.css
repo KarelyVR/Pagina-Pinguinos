@@ -1,0 +1,42 @@
+/*Color de fondo*/
+body{
+    background-color: #dac5e0;
+    color:#13133f;
+    /*en caso de que el navegador no sea compatible se van a ir a las que siguen*/
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+h3{
+    color:#696887;
+    font-size: 25px;
+}
+
+h1, p{
+    color: #2a3133;
+}
+
+img{
+    /*Si son imagenes rectangulares son más anchas*/
+    /*Si son imagenes cuadradas son más iguales de los lados*/
+    border-style:  solid ;
+    border-color: #bcb389;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+/*Se usa el . para referirse a una clase*/
+.img1{
+    width: 500px;
+    height: 250px;
+}
+
+.img2{
+    width: 500px;
+    height: 350px;
+}
+
+a, small{
+    color: rgb(255, 127, 58);
+}
